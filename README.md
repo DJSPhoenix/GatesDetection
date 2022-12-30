@@ -12,15 +12,15 @@
 - A labeled data set of gates
 - _https://pjreddie.com/media/files/darkn..._  From here  we downloaded pre-trained weights for the convolutional layers 
 
-Preparing the data set and uploading it in the drive
+## Preparing the data set and uploading it in the drive
 So first download the images from google and label it using _https://github.com/developer0hye/Yolo_Label_ this labeling tool after labeling and renaming all the photos in the data set compress it in a zip file and upload it on your drive .The data set should contain jpg files i.e photos of the gates and .txt files which contains the coordinates of the given label and a class file which identifies the label.rename the class.txt along with this add the python files which trains text and labels the data set
-Google colab
+### Google colab
 Mount your drive on google colab execute your python files in it give darknet executable permissions and use the GPU feature of google colab and train the given data set using the knowledge of pretrained data set and convoluted neural network after this the drive will contain trained weights which showcases the end of training of yolo
-Code explained in detail
-Creating_files-data-and-name.py : - This codes’s purpose is to compile the name and the data of the labels of the data set into one single text file known as labelled_data
-Creating_train-and-text-files.py:- This code’s purpose is to set up full paths by scanning list of paths and extracting 15% of paths to save into folders train.txt and text.txt  The result of this code will create 2 files train.txt and test.txt with full paths to images
-Test.py:- This code is the soul of the project . It uses the data of the pretrained weights which have been applied while training the bot and finally tests it and simulates it using an open cv source. The result of the code will be that the machine will be able to label the unlabeled picture easily using webcam
-Purpose of this project
+### Code explained in detail
+- **Creating_files-data-and-name.py** : - This codes’s purpose is to compile the name and the data of the labels of the data set into one single text file known as labelled_data
+- **Creating_train-and-text-files.py**:- This code’s purpose is to set up full paths by scanning list of paths and extracting 15% of paths to save into folders train.txt and text.txt  The result of this code will create 2 files train.txt and test.txt with full paths to images
+- **Test.py**:- This code is the soul of the project . It uses the data of the pretrained weights which have been applied while training the bot and finally tests it and simulates it using an open cv source. The result of the code will be that the machine will be able to label the unlabeled picture easily using webcam
+## Purpose of this project
 Our end goal is to create an autonomous racing drone and for that to happen the drone should automatically detect the gates and pass through it  so as to stay on the correct trajectory what we did is the first step of the project which is identifying the gates .The simulations and the tests were successful and the video recordings will be attached with this document.
 
 
