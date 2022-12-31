@@ -27,5 +27,5 @@ Our ultimate goal is to build an autonomous racing drone, and in order for that 
 
 https://user-images.githubusercontent.com/93365067/210038002-582968df-21e2-4dee-a818-321d7233216d.mp4
 
-Dataset and trained weights model.[
+Dataset and trained weights model.
 https://bit.ly/Gate_Detection
